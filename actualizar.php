@@ -13,8 +13,8 @@ if (!$id || $modelo === '' || $categoria === '' || $medidas === '') {
 }
 
 /* 
- * PREGUNTA DE ENTREVISTA: ¿Qué diferencia hay entre INSERT y UPDATE?
- * RESPUESTA: INSERT crea un registro nuevo. UPDATE modifica uno existente, 
+ *¿Qué diferencia hay entre INSERT y UPDATE?
+ * INSERT crea un registro nuevo. UPDATE modifica uno existente, 
  * y es CRÍTICO usar la cláusula WHERE, de lo contrario editaríamos todos los productos a la vez.
  */
 $consulta = $conexion->prepare('UPDATE productos SET modelo = ?, categoria = ?, medidas = ? WHERE id = ?');
