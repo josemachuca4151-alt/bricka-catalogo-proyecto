@@ -1,7 +1,7 @@
 <?php
 /* 
- * PREGUNTA DE ENTREVISTA: ¿Qué es PDO?
- * RESPUESTA: PHP Data Objects. Es una herramienta de PHP que permite conectarse 
+ * ¿Qué es PDO?
+ * PHP Data Objects. Es una herramienta de PHP que permite conectarse 
  * a diferentes bases de datos (como SQLite o MySQL) de forma segura.
  */
 
