@@ -3,8 +3,8 @@
 require 'conexion.php';
 
 /* 
- * PREGUNTA DE ENTREVISTA: ¿Por qué usamos INPUT_POST y no simplemente $_GET?
- * RESPUESTA: Por seguridad. Si borraras usando GET (una simple URL como eliminar.php?id=1), 
+ * ¿Por qué usamos INPUT_POST y no simplemente $_GET?
+ * Por seguridad. Si borraras usando GET (una simple URL como eliminar.php?id=1), 
  * un bot de Google o un usuario malicioso podría abrir esa URL por accidente y borrarte productos. 
  * POST obliga a que la acción venga de un botón real del sistema.
  */
