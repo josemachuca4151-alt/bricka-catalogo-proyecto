@@ -14,10 +14,10 @@ if ($modelo === '' || $categoria === '' || $medidas === '') {
 }
 
 /* 
- * PREGUNTA DE ENTREVISTA: ¿Por qué usas prepare() con signos de interrogación (?) 
+ *  ¿Por qué usas prepare() con signos de interrogación (?) 
  * en lugar de meter la variable directo al SQL?
  * 
- * RESPUESTA: Para evitar ataques de "Inyección SQL". Los signos (?) separan el 
+ *  Para evitar ataques de "Inyección SQL". Los signos (?) separan el 
  * código SQL de los datos que escribió el usuario, haciendo el sistema 100% seguro.
  */
 $consulta = $conexion->prepare('INSERT INTO productos (modelo, categoria, medidas) VALUES (?, ?, ?)');
