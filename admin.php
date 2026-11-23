@@ -3,8 +3,8 @@
 require 'conexion.php';
 
 /* 
- * PREGUNTA DE ENTREVISTA: ¿Cómo obtienes los datos de SQLite?
- * RESPUESTA: Hacemos una consulta SELECT usando query() y luego fetchAll() 
+ * ¿Cómo obtienes los datos de SQLite?
+ * Hacemos una consulta SELECT usando query() y luego fetchAll() 
  * para convertir los resultados en un arreglo de PHP que podamos leer.
  */
 $consulta = $conexion->query('SELECT * FROM productos ORDER BY id DESC');
