@@ -16,8 +16,8 @@
         </div>
         <div class="card-body">
             <!-- 
-                PREGUNTA DE ENTREVISTA: ¿Qué hace el method="POST"?
-                RESPUESTA: Envía los datos del formulario de forma oculta y segura al archivo guardar.php. 
+                 ¿Qué hace el method="POST"?
+                 Envía los datos del formulario de forma oculta y segura al archivo guardar.php. 
                 Si usáramos GET, los datos se verían en la URL de arriba.
             -->
             <form action="guardar.php" method="POST">
